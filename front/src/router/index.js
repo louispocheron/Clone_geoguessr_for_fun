@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { createRouter, createWebHistory } from "vue-router";
 
 // IMPORT DE TOUTES LES ROUTES
