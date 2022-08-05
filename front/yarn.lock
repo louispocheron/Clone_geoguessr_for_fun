@@ -979,6 +979,18 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fawmi/vue-google-maps@^0.9.72":
+  "integrity" "sha512-/eoaV6rvE+eCn0g+OaP9VV2KL19vi2M9I2HL62gDnFdQJ7PYFJliOG6gCeojmX1dYpRWQzEzjhcT5ZzMBkd3Qw=="
+  "resolved" "https://registry.npmjs.org/@fawmi/vue-google-maps/-/vue-google-maps-0.9.72.tgz"
+  "version" "0.9.72"
+  dependencies:
+    "@googlemaps/markerclustererplus" "^1.2.10"
+
+"@googlemaps/markerclustererplus@^1.2.10":
+  "integrity" "sha512-HY4ev+D3kO1+9oQjtKTojxVtJIS/kSWJfry6cpKoXC97kBQc5Vguqu5x6pLnh+70N0Au+16Yl7iu4LZaIOTstw=="
+  "resolved" "https://registry.npmjs.org/@googlemaps/markerclustererplus/-/markerclustererplus-1.2.10.tgz"
+  "version" "1.2.10"
+
 "@hapi/hoek@^9.0.0":
   "integrity" "sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ=="
   "resolved" "https://registry.npmmirror.com/@hapi/hoek/-/hoek-9.3.0.tgz"
@@ -1211,6 +1223,11 @@
     "@types/express-serve-static-core" "^4.17.18"
     "@types/qs" "*"
     "@types/serve-static" "*"
+
+"@types/googlemaps@^3.39.1":
+  "integrity" "sha512-ZWNoz/O8MPEpiajvj7QiqCY8tTLFNqNZ/a+s+zTV58wFVNAvvqV4bdGfnsjTb5Cs4V6wEsLrX8XRhmnyYJ2Tdg=="
+  "resolved" "https://registry.npmjs.org/@types/googlemaps/-/googlemaps-3.43.3.tgz"
+  "version" "3.43.3"
 
 "@types/html-minifier-terser@^6.0.0":
   "integrity" "sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg=="
@@ -3465,6 +3482,13 @@
     "ignore" "^5.2.0"
     "merge2" "^1.4.1"
     "slash" "^3.0.0"
+
+"google-maps@^4.3.3":
+  "integrity" "sha512-MQbEgBNQbGyV7mfS2tlFgW4EoGKLia24BvAl4a+kgsYWt4283kyPpaay/yKIsScQLr7nSUONaLNfOdMsCuJDEw=="
+  "resolved" "https://registry.npmjs.org/google-maps/-/google-maps-4.3.3.tgz"
+  "version" "4.3.3"
+  dependencies:
+    "@types/googlemaps" "^3.39.1"
 
 "graceful-fs@^4.1.2", "graceful-fs@^4.1.6", "graceful-fs@^4.2.0", "graceful-fs@^4.2.4", "graceful-fs@^4.2.6", "graceful-fs@^4.2.9":
   "integrity" "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA=="
